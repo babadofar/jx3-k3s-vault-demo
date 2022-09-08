@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - babadofar/node-demo
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - babadofar/spring-demo
       require_self_approval: true
     cat: {}
@@ -25,6 +29,11 @@ data:
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
+      babadofar/node-demo:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
       babadofar/spring-demo:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
@@ -37,6 +46,22 @@ data:
     plugins:
       babadofar/jx3-k3s-vault-demo:
       - config-updater
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      babadofar/node-demo:
       - approve
       - assign
       - blunderbuss
@@ -79,6 +104,9 @@ data:
     triggers:
     - repos:
       - babadofar/jx3-k3s-vault-demo
+      trusted_org: todo
+    - repos:
+      - babadofar/node-demo
       trusted_org: todo
     - repos:
       - babadofar/spring-demo
