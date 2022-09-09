@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        babadofar/grandma: true
         babadofar/jx3-k3s-vault-demo: true
         babadofar/node-demo: true
         babadofar/spring-demo: true
@@ -21,6 +22,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        babadofar/grandma: merge
         babadofar/jx3-k3s-vault-demo: merge
         babadofar/node-demo: merge
         babadofar/spring-demo: merge
@@ -35,6 +37,7 @@ data:
         - needs-rebase
         repos:
         - babadofar/jx3-k3s-vault-demo
+        - babadofar/grandma
         - babadofar/node-demo
         - babadofar/spring-demo
       - labels:
@@ -47,9 +50,10 @@ data:
         - needs-rebase
         repos:
         - babadofar/jx3-k3s-vault-demo
+        - babadofar/grandma
         - babadofar/node-demo
         - babadofar/spring-demo
-      target_url: http://lighthouse.jx./merge/status
+      target_url: http://lighthouse.jx.192.168.64.2.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null

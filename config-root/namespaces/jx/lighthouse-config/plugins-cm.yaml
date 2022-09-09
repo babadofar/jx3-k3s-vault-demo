@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - babadofar/grandma
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - babadofar/node-demo
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -24,6 +28,11 @@ data:
         env/prow/plugins.yaml:
           name: plugins
     external_plugins:
+      babadofar/grandma:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
       babadofar/jx3-k3s-vault-demo:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
@@ -44,6 +53,22 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      babadofar/grandma:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       babadofar/jx3-k3s-vault-demo:
       - config-updater
       - approve
@@ -104,6 +129,9 @@ data:
     triggers:
     - repos:
       - babadofar/jx3-k3s-vault-demo
+      trusted_org: todo
+    - repos:
+      - babadofar/grandma
       trusted_org: todo
     - repos:
       - babadofar/node-demo

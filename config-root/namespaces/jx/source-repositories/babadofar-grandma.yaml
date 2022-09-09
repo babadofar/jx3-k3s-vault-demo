@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: babadofar
+    provider: github
+    repository: grandma
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: babadofar-grandma
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/babadofar/grandma.git
+  org: babadofar
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: grandma
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/babadofar/grandma
