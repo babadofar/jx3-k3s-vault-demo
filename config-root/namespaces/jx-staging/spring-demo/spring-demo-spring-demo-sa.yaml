@@ -1,0 +1,10 @@
+# Source: spring-demo/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: spring-demo-spring-demo
+  annotations:
+    meta.helm.sh/release-name: 'spring-demo'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
