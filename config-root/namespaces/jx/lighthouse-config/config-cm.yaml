@@ -49,7 +49,7 @@ data:
         - babadofar/jx3-k3s-vault-demo
         - babadofar/node-demo
         - babadofar/spring-demo
-      target_url: http://lighthouse.jx./merge/status
+      target_url: http://lighthouse.jx.192.168.64.2.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
