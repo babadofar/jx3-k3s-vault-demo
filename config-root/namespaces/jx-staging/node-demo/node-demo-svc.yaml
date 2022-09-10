@@ -1,0 +1,20 @@
+# Source: node-demo/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: node-demo
+  labels:
+    chart: "node-demo-0.0.2"
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  annotations:
+    meta.helm.sh/release-name: 'node-demo'
+  namespace: jx-staging
+spec:
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: 8080
+      protocol: TCP
+      name: http
+  selector:
+    app: node-demo-node-demo

@@ -1,0 +1,10 @@
+# Source: node-demo/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: node-demo-node-demo
+  annotations:
+    meta.helm.sh/release-name: 'node-demo'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
