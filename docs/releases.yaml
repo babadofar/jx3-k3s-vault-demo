@@ -133,14 +133,14 @@
   path: helmfiles/jx-staging/helmfile.yaml
   releases:
   - apiVersion: v1
-    appVersion: 0.0.8
+    appVersion: 0.0.10
     description: A Helm chart for Kubernetes
-    firstDeployed: "2022-09-10T10:59:36Z"
+    firstDeployed: "2022-09-10T12:09:10Z"
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
-    lastDeployed: "2022-09-10T10:59:36Z"
+    lastDeployed: "2022-09-10T12:09:10Z"
     name: spring-demo
     releaseName: spring-demo
     repositoryName: dev
     repositoryUrl: https://babadofar.github.io/jx3-k3s-vault-demo/
     resourcePath: config-root/namespaces/jx-staging/spring-demo
-    version: 0.0.8
+    version: 0.0.10
