@@ -13,5 +13,8 @@ releases:
   name: spring-demo
   values:
   - jx-values.yaml
+- chart: dev/node-demo
+  version: 0.0.2
+  name: node-demo
 templates: {}
 renderedvalues: {}
