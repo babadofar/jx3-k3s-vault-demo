@@ -83,7 +83,7 @@
 	    <tr>
 	      <td>spring-demo</td>
 	      <td title='A Helm chart for Kubernetes'> <img src='https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png' width='24px' height='24px'> spring-demo</td>
-	      <td>0.0.8</td>
+	      <td>0.0.10</td>
 	      <td></td>
 	      <td></td>
 	    </tr>
