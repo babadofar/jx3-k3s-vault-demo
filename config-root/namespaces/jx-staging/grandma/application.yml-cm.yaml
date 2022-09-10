@@ -1,0 +1,15 @@
+# Source: grandma/templates/application.yaml
+apiVersion: v1
+data:
+  application.yml: |
+    domain: nip.io
+    customer.
+      name: Robinson Crusoe
+kind: ConfigMap
+metadata:
+  name: application.yml
+  annotations:
+    meta.helm.sh/release-name: 'grandma'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'

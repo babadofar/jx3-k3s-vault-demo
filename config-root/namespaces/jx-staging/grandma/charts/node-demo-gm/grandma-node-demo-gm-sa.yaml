@@ -1,0 +1,10 @@
+# Source: grandma/charts/node-demo-gm/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: grandma-node-demo-gm
+  annotations:
+    meta.helm.sh/release-name: 'grandma'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
