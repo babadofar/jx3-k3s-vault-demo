@@ -1,0 +1,12 @@
+# Source: grandma/templates/config-json.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configjs
+  annotations:
+    meta.helm.sh/release-name: 'grandma'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+data:
+  'config.json': "{\n \"appServer\": \"spring-demo-gm.nip.io\",\n \"customerName\": \"Robinson Crusoe\"         \n }"

@@ -156,3 +156,23 @@
     repositoryUrl: https://babadofar.github.io/jx3-k3s-vault-demo/
     resourcePath: config-root/namespaces/jx-staging/node-demo
     version: 0.0.2
+  - apiVersion: v2
+    appVersion: 0.0.1
+    dependencies:
+    - alias: spring-demo-gm
+      name: spring-demo
+      repository: https://babadofar.github.io/jx3-k3s-vault-demo/
+      version: 0.0.10
+    - alias: node-demo-gm
+      name: node-demo
+      repository: https://babadofar.github.io/jx3-k3s-vault-demo/
+      version: 0.0.2
+    description: Collected applications for demo purpose
+    firstDeployed: "2022-09-10T13:27:55Z"
+    lastDeployed: "2022-09-10T13:27:55Z"
+    name: grandma
+    releaseName: grandma
+    repositoryName: dev
+    repositoryUrl: https://babadofar.github.io/jx3-k3s-vault-demo/
+    resourcePath: config-root/namespaces/jx-staging/grandma
+    version: 0.0.1

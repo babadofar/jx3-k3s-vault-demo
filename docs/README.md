@@ -94,6 +94,13 @@
 	      <td></td>
 	      <td></td>
 	    </tr>
+    <tr>
+	      <td>grandma</td>
+	      <td title='Collected applications for demo purpose'> grandma</td>
+	      <td>0.0.1</td>
+	      <td></td>
+	      <td></td>
+	    </tr>
 
   </tbody>
 </table>
