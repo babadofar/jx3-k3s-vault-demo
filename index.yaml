@@ -1,9 +1,28 @@
 apiVersion: v1
 entries:
+  grandma:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-09-10T13:16:13.530482629Z"
+    dependencies:
+    - alias: spring-demo-gm
+      name: spring-demo
+      repository: https://babadofar.github.io/jx3-k3s-vault-demo/
+      version: 0.0.10
+    - alias: node-demo-gm
+      name: node-demo
+      repository: https://babadofar.github.io/jx3-k3s-vault-demo/
+      version: 0.0.2
+    description: Collected applications for demo purpose
+    digest: 7842d351bf8f5087f83451579cfbdfd0591aa1be884bdf015489ebeaae699c45
+    name: grandma
+    urls:
+    - grandma-0.0.1.tgz
+    version: 0.0.1
   node-demo:
   - apiVersion: v1
     appVersion: 0.0.2
-    created: "2022-09-10T13:07:24.224387208Z"
+    created: "2022-09-10T13:16:13.534161758Z"
     description: A Helm chart for Kubernetes
     digest: 7ed568e1dc99fb9b5ee098821fb4ab41163f84a53ef0e162f43d9d66e106ee06
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
@@ -14,7 +33,7 @@ entries:
   spring-demo:
   - apiVersion: v1
     appVersion: 0.0.10
-    created: "2022-09-10T13:07:24.225926357Z"
+    created: "2022-09-10T13:16:13.538730726Z"
     description: A Helm chart for Kubernetes
     digest: a637cca535ac4085912a72387f64df1f59b0487bda839398ba5b9471ee489d7b
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
@@ -24,7 +43,7 @@ entries:
     version: 0.0.10
   - apiVersion: v1
     appVersion: 0.0.9
-    created: "2022-09-10T13:07:24.232445024Z"
+    created: "2022-09-10T13:16:13.545497222Z"
     description: A Helm chart for Kubernetes
     digest: abbeb261281f91d8c51bf87ee887183ce165ab4f85f4161ca570a50779d1caba
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
@@ -34,7 +53,7 @@ entries:
     version: 0.0.9
   - apiVersion: v1
     appVersion: 0.0.8
-    created: "2022-09-10T13:07:24.229401875Z"
+    created: "2022-09-10T13:16:13.543262534Z"
     description: A Helm chart for Kubernetes
     digest: 4b6a45efb9066adff7aeb47401b44fa68d421eb440c9e8f526e0d52332d0ebba
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
@@ -44,7 +63,7 @@ entries:
     version: 0.0.8
   - apiVersion: v1
     appVersion: 0.0.7
-    created: "2022-09-10T13:07:24.227401999Z"
+    created: "2022-09-10T13:16:13.541635091Z"
     description: A Helm chart for Kubernetes
     digest: fa701c5224643a0ce1302657093842e21cced2a51a0647f420dd83f36abd839b
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
@@ -52,4 +71,4 @@ entries:
     urls:
     - spring-demo-0.0.7.tgz
     version: 0.0.7
-generated: "2022-09-10T13:07:24.221503225Z"
+generated: "2022-09-10T13:16:13.525091948Z"
