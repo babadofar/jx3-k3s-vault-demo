@@ -18,5 +18,8 @@ releases:
   name: node-demo
   values:
   - jx-values.yaml
+- chart: dev/grandma
+  version: 0.0.1
+  name: grandma
 templates: {}
 renderedvalues: {}
