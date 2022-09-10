@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: spring-demo
   labels:
-    chart: "spring-demo-0.0.7"
+    chart: "spring-demo-0.0.9"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     meta.helm.sh/release-name: 'spring-demo'
