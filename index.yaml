@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  node-demo:
+  - apiVersion: v1
+    appVersion: 0.0.2
+    created: "2022-09-10T13:07:24.224387208Z"
+    description: A Helm chart for Kubernetes
+    digest: 7ed568e1dc99fb9b5ee098821fb4ab41163f84a53ef0e162f43d9d66e106ee06
+    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
+    name: node-demo
+    urls:
+    - node-demo-0.0.2.tgz
+    version: 0.0.2
   spring-demo:
   - apiVersion: v1
     appVersion: 0.0.10
-    created: "2022-09-10T12:04:13.331352344Z"
+    created: "2022-09-10T13:07:24.225926357Z"
     description: A Helm chart for Kubernetes
     digest: a637cca535ac4085912a72387f64df1f59b0487bda839398ba5b9471ee489d7b
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
@@ -13,7 +24,7 @@ entries:
     version: 0.0.10
   - apiVersion: v1
     appVersion: 0.0.9
-    created: "2022-09-10T12:04:13.334913921Z"
+    created: "2022-09-10T13:07:24.232445024Z"
     description: A Helm chart for Kubernetes
     digest: abbeb261281f91d8c51bf87ee887183ce165ab4f85f4161ca570a50779d1caba
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
@@ -23,7 +34,7 @@ entries:
     version: 0.0.9
   - apiVersion: v1
     appVersion: 0.0.8
-    created: "2022-09-10T12:04:13.334095745Z"
+    created: "2022-09-10T13:07:24.229401875Z"
     description: A Helm chart for Kubernetes
     digest: 4b6a45efb9066adff7aeb47401b44fa68d421eb440c9e8f526e0d52332d0ebba
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
@@ -33,7 +44,7 @@ entries:
     version: 0.0.8
   - apiVersion: v1
     appVersion: 0.0.7
-    created: "2022-09-10T12:04:13.332956832Z"
+    created: "2022-09-10T13:07:24.227401999Z"
     description: A Helm chart for Kubernetes
     digest: fa701c5224643a0ce1302657093842e21cced2a51a0647f420dd83f36abd839b
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
@@ -41,4 +52,4 @@ entries:
     urls:
     - spring-demo-0.0.7.tgz
     version: 0.0.7
-generated: "2022-09-10T12:04:13.32862922Z"
+generated: "2022-09-10T13:07:24.221503225Z"
