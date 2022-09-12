@@ -19,7 +19,7 @@ releases:
   values:
   - jx-values.yaml
 - chart: dev/grandma
-  version: 0.0.1
+  version: 0.0.3
   name: grandma
   values:
   - jx-values.yaml
