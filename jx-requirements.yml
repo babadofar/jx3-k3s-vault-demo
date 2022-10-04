@@ -5,8 +5,8 @@ spec:
     enabled: false
     schedule: ""
   cluster:
-    chartKind: pages
-    chartRepository: https://github.com/babadofar/jx3-k3s-vault-demo
+    chartKind: oci
+    chartRepository: oci://jenkins-x-oci
     clusterName: kind
     devEnvApprovers:
     - todo
